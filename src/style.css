@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-button{
+    @apply bg-white opacity-10 rounded-full p-2
+}
+
+.position-center{
+    @apply absolute transform -translate-x-1/2 left-1/2
+}
+
+.after{
+    @apply after:content-['*'] after:bg-yellow-600 after:w-32 after:h-1 after:absolute after:top-1
+}
+
